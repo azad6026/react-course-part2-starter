@@ -26,11 +26,11 @@ const PostList = () => {
       <ul className="list-group">
         {data.pages.map((page, index) => (
           <React.Fragment key={index}>
-            {page.map((post) => (
+            {/* {page.map((post) => (
               <li key={post.id} className="list-group-item">
                 {post.title}
               </li>
-            ))}
+            ))} */}
           </React.Fragment>
         ))}
       </ul>
